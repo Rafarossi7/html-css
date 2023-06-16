@@ -6,17 +6,24 @@
     <title>Document</title>
     <style>
         body{
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* Shorthand - background
+               color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -30,7 +37,8 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, omnis, odit dolores itaque, id dolor maxime saepe quisquam ratione cumque ab magnam. Rem obcaecati id magnam reiciendis sint, voluptatem laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequatur dolore dolor, distinctio inventore harum? Dolor consequuntur vel dolorum soluta, doloremque a velit nostrum fugit deleniti iste ea assumenda pariatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente voluptates, nam fugit iste ad dignissimos repellendus mollitia maxime impedit ab molestiae ducimus in placeat tempora eveniet itaque porro ipsum. Aspernatur!
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, omnis, odit dolores itaque, id dolor maxime saepe quisquam ratione cumque ab magnam. Rem obcaecati id magnam reiciendis sint, voluptatem laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consequatur dolore dolor, distinctio inventore harum? Dolor consequuntur vel dolorum soluta, doloremque a velit nostrum fugit deleniti iste ea assumenda pariatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente voluptates, nam fugit iste ad dignissimos repellendus mollitia maxime impedit ab molestiae ducimus in placeat tempora eveniet itaque porro ipsum. Aspernatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente fugit eaque, dolores nulla atque suscipit, aliquid voluptatum quam veritatis nesciunt a veniam aliquam asperiores pariatur laborum reiciendis minus vel mollitia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quos exercitationem corporis, earum sint hic. Eos enim laudantium natus eveniet dolore temporibus quisquam, iure nulla accusamus alias? Iusto, perspiciatis excepturi!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt corrupti odio recusandae distinctio sequi ratione laudantium omnis id, aliquid sed animi vitae voluptas eum dolor eveniet fugit sunt facilis iure! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, quos dolores! Quo quis, ut eaque corporis facilis pariatur laboriosam ducimus expedita eius repellat eligendi. Molestiae optio consequatur delectus accusantium consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus repudiandae consequuntur quae modi accusantium. Tempore, ipsa commodi totam, nobis nostrum dolorem unde dignissimos sunt saepe voluptatum ea, voluptate vero inventore.
         </p>
 
     </main>
